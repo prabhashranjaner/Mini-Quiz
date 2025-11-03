@@ -17,9 +17,11 @@ function App() {
   useEffect(() => {
     async function fetchQuestions() {
       try {
-        const res = await fetch("http://localhost:4000/questions");
+        const res = await fetch(
+          "https://mini-quiz-backend-1.onrender.com/questions"
+        );
         const data = await res.json();
-        dispatch({ type: "SET_QUESTIONS", payload: data });
+        dispatch({ type: "SET_QUESTIONS", payload: data.questions });
       } catch (error) {
         console.log(error);
         dispatch({ type: "ERROR" });
@@ -27,7 +29,7 @@ function App() {
     }
 
     fetchQuestions();
-  }, []);
+  }, [dispatch]);
   return (
     <div>
       <Header />

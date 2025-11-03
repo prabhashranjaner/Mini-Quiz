@@ -8,10 +8,10 @@ const WelcomeScreen = () => {
   return (
     <div>
       <h2 className="text-2xl md:text-4xl mb-2">
-        Welcome to The Javascript Quiz
+        Welcome to The Bollywood Quiz
       </h2>
       <p className="text-sm md:text-lg mb-12">
-        {quesCount} questions to test your Javascript mastery
+        {quesCount} questions to test your Bollywood mastery
       </p>
 
       <button onClick={() => dispatch({ type: "READY" })}>Let's Start</button>
