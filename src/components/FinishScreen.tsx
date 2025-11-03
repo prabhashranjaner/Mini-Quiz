@@ -16,7 +16,7 @@ const FinishScreen = () => {
 
   return (
     <div>
-      <p className="text-lg py-4 bg-amber-800 rounded-full">
+      <p className="text-lg py-4 bg-primary rounded-full">
         You scored <strong>{points}</strong> out of {maxPoints} ({percent}%)
       </p>
       <p className="mt-3">(Hightest Score {highestPoints})</p>

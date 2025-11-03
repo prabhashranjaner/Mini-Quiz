@@ -8,9 +8,32 @@ export type STATE_TYPE = {
   points: number;
   highestPoints: number;
   secondsRemaining: null | number;
+  category: CATEGORY_TYPE;
 };
 
-export type STATUS_TYPE = "loading" | "error" | "ready" | "active" | "finished";
+export type STATUS_TYPE =
+  | "loading"
+  | "error"
+  | "ready"
+  | "active"
+  | "finished"
+  | "welcome";
+
+export type CATEGORY_TYPE =
+  | "cricket"
+  | "geography"
+  | "history"
+  | "bollywood"
+  | "mythology"
+  | "politics"
+  | "current_affairs"
+  | "science"
+  | null;
+
+export type OPTION_TYPE = {
+  value: CATEGORY_TYPE;
+  label: string;
+};
 
 export type QUES_TYPE = {
   id: number;
@@ -21,6 +44,8 @@ export type QUES_TYPE = {
 };
 
 export type ACTION_TYPE =
+  | { type: "SET_CATEGORY"; payload: CATEGORY_TYPE }
+  | { type: "RESET_CATEGORY" }
   | { type: "SET_QUESTIONS"; payload: QUES_TYPE[] }
   | { type: "ERROR" }
   | { type: "READY" }

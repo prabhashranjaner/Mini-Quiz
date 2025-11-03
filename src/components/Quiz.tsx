@@ -11,7 +11,7 @@ const Quiz = () => {
   const currentQuestion = questions[index];
 
   function handleNext() {
-    if (index < 14) {
+    if (index < 19) {
       dispatch({ type: "NEXT" });
     }
   }
@@ -29,14 +29,14 @@ const Quiz = () => {
       />
       <div className="flex justify-between items-center">
         <Timer />
-        {answer !== null && index < 14 && (
-          <button className="" onClick={handleNext}>
-            Next
+        {answer !== null && (
+          <button className="" onClick={() => dispatch({ type: "FINISH" })}>
+            Finish 🙅🏻
           </button>
         )}
-        {answer !== null && index === 14 && (
-          <button className="" onClick={() => dispatch({ type: "FINISH" })}>
-            Finish
+        {answer !== null && index < 19 && (
+          <button className="" onClick={handleNext}>
+            Next ▶
           </button>
         )}
       </div>

@@ -1,138 +1,1537 @@
 {
-  "questions": [
+  "bollywood": [
     {
       "id": 1,
-      "question": "Who is known as the 'King of Bollywood'?",
+      "question": "Which was the first Indian film to be nominated for the Academy Award for Best International Feature Film?",
       "options": [
-        "Salman Khan",
-        "Aamir Khan",
-        "Shah Rukh Khan",
-        "Akshay Kumar"
+        "Mother India",
+        "Lagaan",
+        "Salaam Bombay!",
+        "Pather Panchali"
       ],
-      "correctAnswer": 2,
-      "points": 5
+      "correctAnswer": 0,
+      "points": 15
     },
     {
       "id": 2,
-      "question": "Which was the first Indian sound film (talkie)?",
-      "options": [
-        "Alam Ara",
-        "Raja Harishchandra",
-        "Mother India",
-        "Mughal-E-Azam"
-      ],
+      "question": "Who wrote the dialogues for the cult classic film 'Sholay'?",
+      "options": ["Salim-Javed", "Gulzar", "Javed Akhtar", "Kader Khan"],
       "correctAnswer": 0,
-      "points": 10
+      "points": 15
     },
     {
       "id": 3,
-      "question": "Who directed the movie 'Lagaan'?",
+      "question": "In the movie 'Black', who played the role of Michelle McNally’s teacher?",
       "options": [
-        "Sanjay Leela Bhansali",
-        "Ashutosh Gowariker",
-        "Rajkumar Hirani",
-        "Farhan Akhtar"
+        "Amitabh Bachchan",
+        "Anupam Kher",
+        "Naseeruddin Shah",
+        "Om Puri"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "points": 10
     },
     {
       "id": 4,
-      "question": "Which actress is popularly known as 'Dream Girl' of Bollywood?",
-      "options": ["Hema Malini", "Sridevi", "Madhuri Dixit", "Rekha"],
+      "question": "Which Bollywood film was the first to gross over ₹100 crore domestically?",
+      "options": ["Ghajini", "3 Idiots", "Dhoom 2", "Krrish"],
       "correctAnswer": 0,
-      "points": 5
+      "points": 10
     },
     {
       "id": 5,
-      "question": "In which year was the movie 'Sholay' released?",
-      "options": ["1972", "1973", "1975", "1977"],
-      "correctAnswer": 2,
-      "points": 10
-    },
-    {
-      "id": 6,
-      "question": "Which actor played the role of 'Munna Bhai'?",
-      "options": ["Sanjay Dutt", "Aamir Khan", "Salman Khan", "Ajay Devgn"],
+      "question": "Who was the first female music director in Bollywood?",
+      "options": [
+        "Usha Khanna",
+        "Lata Mangeshkar",
+        "Sneha Khanwalkar",
+        "Neha Kakkar"
+      ],
       "correctAnswer": 0,
-      "points": 5
-    },
-    {
-      "id": 7,
-      "question": "Which Bollywood movie’s song 'Jai Ho' won an Oscar?",
-      "options": ["Swades", "Lagaan", "Slumdog Millionaire", "Rang De Basanti"],
-      "correctAnswer": 2,
       "points": 15
     },
     {
+      "id": 6,
+      "question": "Which legendary actor was originally offered the role of 'Gabbar Singh' in Sholay but declined?",
+      "options": [
+        "Danny Denzongpa",
+        "Amjad Khan",
+        "Vinod Khanna",
+        "Sanjeev Kumar"
+      ],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 7,
+      "question": "In which film did Irrfan Khan play the role of a widower who receives the wrong lunchbox?",
+      "options": ["The Lunchbox", "Life of Pi", "Hindi Medium", "Piku"],
+      "correctAnswer": 0,
+      "points": 10
+    },
+    {
       "id": 8,
-      "question": "Who composed the music for the movie 'Dil Se'?",
-      "options": ["Anu Malik", "A.R. Rahman", "Shankar-Ehsaan-Loy", "Pritam"],
+      "question": "Who was the first Indian actor to win the Best Actor award at the National Film Awards?",
+      "options": ["Uttam Kumar", "Dilip Kumar", "Balraj Sahni", "Ashok Kumar"],
+      "correctAnswer": 3,
+      "points": 15
+    },
+    {
+      "id": 9,
+      "question": "Which Bollywood movie is based on the life of mathematician Anand Kumar?",
+      "options": ["Chhichhore", "Super 30", "Taare Zameen Par", "Hichki"],
       "correctAnswer": 1,
       "points": 10
     },
     {
-      "id": 9,
-      "question": "Which Bollywood actress made her debut in the film 'Om Shanti Om'?",
-      "options": [
-        "Priyanka Chopra",
-        "Deepika Padukone",
-        "Katrina Kaif",
-        "Anushka Sharma"
-      ],
-      "correctAnswer": 1,
-      "points": 5
-    },
-    {
       "id": 10,
-      "question": "Who played the character 'Rancho' in '3 Idiots'?",
+      "question": "Which 1994 film won the first Filmfare Award for Best Film Critics’ Choice?",
       "options": [
-        "Aamir Khan",
-        "R. Madhavan",
-        "Sharman Joshi",
-        "Saif Ali Khan"
+        "Bandit Queen",
+        "1942: A Love Story",
+        "Hum Aapke Hain Koun",
+        "Kabhi Haan Kabhi Naa"
       ],
       "correctAnswer": 0,
-      "points": 5
+      "points": 15
     },
     {
       "id": 11,
-      "question": "Which director is famous for making romantic films like 'Dilwale Dulhania Le Jayenge'?",
-      "options": ["Karan Johar", "Aditya Chopra", "Yash Chopra", "Imtiaz Ali"],
+      "question": "In the movie 'Dil Chahta Hai', which city was the Goa fort scene shot in?",
+      "options": [
+        "Aguada Fort",
+        "Chapora Fort",
+        "Reis Magos Fort",
+        "Fort Tiracol"
+      ],
       "correctAnswer": 1,
       "points": 10
     },
     {
       "id": 12,
-      "question": "Which Bollywood movie featured the character 'Gabbar Singh'?",
-      "options": ["Don", "Deewar", "Sholay", "Zanjeer"],
-      "correctAnswer": 2,
-      "points": 5
+      "question": "Which film marked the debut of Satyajit Ray as a music composer in Hindi cinema?",
+      "options": [
+        "Shatranj Ke Khilari",
+        "Pather Panchali",
+        "Charulata",
+        "Aparajito"
+      ],
+      "correctAnswer": 0,
+      "points": 15
     },
     {
       "id": 13,
-      "question": "Who played the role of 'Bajirao' in 'Bajirao Mastani'?",
+      "question": "Who won the National Award for Best Actress for the film 'Fashion'?",
       "options": [
-        "Ranbir Kapoor",
-        "Hrithik Roshan",
-        "Ranveer Singh",
-        "Shahid Kapoor"
+        "Kareena Kapoor",
+        "Priyanka Chopra",
+        "Kangana Ranaut",
+        "Vidya Balan"
       ],
+      "correctAnswer": 1,
+      "points": 10
+    },
+    {
+      "id": 14,
+      "question": "Which Bollywood film featured all three Khans — Shah Rukh, Salman, and Aamir — together in a single frame?",
+      "options": [
+        "Andaz Apna Apna",
+        "Om Shanti Om",
+        "Hum Tumhare Hain Sanam",
+        "None of the above"
+      ],
+      "correctAnswer": 3,
+      "points": 15
+    },
+    {
+      "id": 15,
+      "question": "Who composed the music for the Oscar-nominated film 'Lagaan'?",
+      "options": ["A.R. Rahman", "Anu Malik", "Shankar-Ehsaan-Loy", "Pritam"],
+      "correctAnswer": 0,
+      "points": 10
+    },
+    {
+      "id": 16,
+      "question": "In which film did Nawazuddin Siddiqui play the character 'Faizal Khan'?",
+      "options": ["Sacred Games", "Raees", "Gangs of Wasseypur", "Badlapur"],
+      "correctAnswer": 2,
+      "points": 10
+    },
+    {
+      "id": 17,
+      "question": "Which was the first Bollywood film to be entirely shot in Switzerland?",
+      "options": [
+        "Sangam",
+        "Dilwale Dulhania Le Jayenge",
+        "Chandni",
+        "Love in Simla"
+      ],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 18,
+      "question": "Which Indian actress was honored with the Padma Shri for her contribution to cinema in 2011?",
+      "options": [
+        "Vidya Balan",
+        "Kareena Kapoor",
+        "Kangana Ranaut",
+        "Priyanka Chopra"
+      ],
+      "correctAnswer": 0,
+      "points": 10
+    },
+    {
+      "id": 19,
+      "question": "What was the original title of the film 'Kabhi Alvida Naa Kehna' before release?",
+      "options": [
+        "Never Say Goodbye",
+        "Kal Ho Naa Ho 2",
+        "Goodbye My Love",
+        "Always Yours"
+      ],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 20,
+      "question": "Which Bollywood film holds the record for the highest number of Filmfare Awards won by a single movie?",
+      "options": [
+        "Gully Boy",
+        "Black",
+        "Devdas",
+        "Dilwale Dulhania Le Jayenge"
+      ],
+      "correctAnswer": 0,
+      "points": 15
+    }
+  ],
+  "cricket": [
+    {
+      "id": 1,
+      "question": "Which batsman holds the record for the highest batting average in Test cricket (minimum 20 innings)?",
+      "options": [
+        "Steve Smith",
+        "Don Bradman",
+        "Kumar Sangakkara",
+        "Graeme Pollock"
+      ],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "id": 2,
+      "question": "Who is the only bowler to take four wickets in four consecutive balls in ODIs twice?",
+      "options": [
+        "Lasith Malinga",
+        "Chaminda Vaas",
+        "Shaun Tait",
+        "Trent Boult"
+      ],
+      "correctAnswer": 0,
+      "points": 20
+    },
+    {
+      "id": 3,
+      "question": "Who was the first batsman to be given out by the third umpire in international cricket?",
+      "options": [
+        "Jonty Rhodes",
+        "Sachin Tendulkar",
+        "Karl Liebenberg",
+        "Allan Donald"
+      ],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 4,
+      "question": "Which player was the first to score centuries in both innings of his debut Test match?",
+      "options": [
+        "Lawrence Rowe",
+        "Greg Chappell",
+        "Mohammad Azharuddin",
+        "Andy Flower"
+      ],
+      "correctAnswer": 0,
+      "points": 20
+    },
+    {
+      "id": 5,
+      "question": "Who was the first cricketer to be knighted by the British Crown?",
+      "options": [
+        "Sir Jack Hobbs",
+        "Sir Donald Bradman",
+        "Sir Len Hutton",
+        "Sir Garfield Sobers"
+      ],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 6,
+      "question": "Which bowler has the best career bowling average in Test cricket history (minimum 2,000 balls bowled)?",
+      "options": [
+        "George Lohmann",
+        "Malcolm Marshall",
+        "Glenn McGrath",
+        "Richard Hadlee"
+      ],
+      "correctAnswer": 0,
+      "points": 20
+    },
+    {
+      "id": 7,
+      "question": "In which Test did Anil Kumble take all 10 wickets in an innings?",
+      "options": [
+        "India vs Pakistan, Delhi 1999",
+        "India vs England, Chennai 2001",
+        "India vs Australia, Bangalore 1998",
+        "India vs Pakistan, Kolkata 2005"
+      ],
+      "correctAnswer": 0,
+      "points": 20
+    },
+    {
+      "id": 8,
+      "question": "Which player has scored centuries in all three formats of international cricket as captain?",
+      "options": [
+        "Virat Kohli",
+        "Faf du Plessis",
+        "Kane Williamson",
+        "Eoin Morgan"
+      ],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 9,
+      "question": "Who was the first cricketer to score a triple century in Test matches twice?",
+      "options": [
+        "Brian Lara",
+        "Don Bradman",
+        "Virender Sehwag",
+        "Chris Gayle"
+      ],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "id": 10,
+      "question": "Which wicketkeeper has the most dismissals in Test cricket history?",
+      "options": ["Adam Gilchrist", "Mark Boucher", "MS Dhoni", "Ian Healy"],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 11,
+      "question": "Which cricketer has bowled the most deliveries in Test cricket history?",
+      "options": [
+        "James Anderson",
+        "Muttiah Muralitharan",
+        "Anil Kumble",
+        "Shane Warne"
+      ],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "id": 12,
+      "question": "Which team won the inaugural ICC Champions Trophy in 1998 (then called the ICC Knockout)?",
+      "options": ["South Africa", "Australia", "India", "Pakistan"],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 13,
+      "question": "Who is the only player to have scored a century and taken a hat-trick in the same ODI match?",
+      "options": [
+        "Shahid Afridi",
+        "Sanath Jayasuriya",
+        "Paul Collingwood",
+        "Mohammad Nabi"
+      ],
+      "correctAnswer": 2,
+      "points": 20
+    },
+    {
+      "id": 14,
+      "question": "Who was the first batsman to reach 10,000 runs in Test cricket?",
+      "options": [
+        "Sunil Gavaskar",
+        "Allan Border",
+        "Sachin Tendulkar",
+        "Brian Lara"
+      ],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 15,
+      "question": "Which team holds the record for the lowest total in Test cricket history?",
+      "options": ["New Zealand", "South Africa", "Zimbabwe", "India"],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 16,
+      "question": "Who was the first batsman to score a century in a T20 International match?",
+      "options": [
+        "Chris Gayle",
+        "Brendon McCullum",
+        "Suresh Raina",
+        "Ricky Ponting"
+      ],
+      "correctAnswer": 3,
+      "points": 20
+    },
+    {
+      "id": 17,
+      "question": "Which Indian bowler has the best bowling figures in a single ODI match?",
+      "options": [
+        "Anil Kumble",
+        "Stuart Binny",
+        "Jasprit Bumrah",
+        "Ajit Agarkar"
+      ],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 18,
+      "question": "Who is the only player to captain two different countries in Test cricket?",
+      "options": [
+        "Kepler Wessels",
+        "Imran Tahir",
+        "Eoin Morgan",
+        "Andrew Symonds"
+      ],
+      "correctAnswer": 0,
+      "points": 20
+    },
+    {
+      "id": 19,
+      "question": "Who was the first player to score 1,000 runs in a single calendar year of Test cricket?",
+      "options": [
+        "Everton Weekes",
+        "Garfield Sobers",
+        "Mohinder Amarnath",
+        "Don Bradman"
+      ],
+      "correctAnswer": 3,
+      "points": 20
+    },
+    {
+      "id": 20,
+      "question": "Which bowler holds the record for the best economy rate in a completed spell of 10 overs in ODIs?",
+      "options": [
+        "Phil Simmons",
+        "Glenn McGrath",
+        "Shaun Pollock",
+        "Joel Garner"
+      ],
+      "correctAnswer": 0,
+      "points": 15
+    }
+  ],
+  "geograpgy": [
+    {
+      "id": 1,
+      "question": "Which is the only Indian state that shares its border with both Bangladesh and Myanmar?",
+      "options": ["Tripura", "Mizoram", "Manipur", "Nagaland"],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "id": 2,
+      "question": "Which river originates from the Amarkantak Plateau?",
+      "options": ["Mahanadi", "Narmada", "Godavari", "Tapti"],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 3,
+      "question": "Which is the highest peak located entirely within India (excluding border peaks)?",
+      "options": ["K2", "Kangchenjunga", "Nanda Devi", "Kamet"],
+      "correctAnswer": 2,
+      "points": 20
+    },
+    {
+      "id": 4,
+      "question": "Which Indian state has the largest forest cover by area?",
+      "options": [
+        "Madhya Pradesh",
+        "Arunachal Pradesh",
+        "Chhattisgarh",
+        "Odisha"
+      ],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 5,
+      "question": "Which of the following passes connects Srinagar to Leh?",
+      "options": ["Rohtang Pass", "Banihal Pass", "Zoji La", "Nathu La"],
+      "correctAnswer": 2,
+      "points": 15
+    },
+    {
+      "id": 6,
+      "question": "Which river forms the boundary between Assam and Arunachal Pradesh?",
+      "options": ["Subansiri", "Siang", "Kameng", "Lohit"],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "id": 7,
+      "question": "Which Indian plateau is known as the 'Storehouse of Minerals'?",
+      "options": [
+        "Deccan Plateau",
+        "Chota Nagpur Plateau",
+        "Malwa Plateau",
+        "Bundelkhand Plateau"
+      ],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 8,
+      "question": "Which Indian river flows through a rift valley?",
+      "options": ["Narmada", "Yamuna", "Krishna", "Mahanadi"],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 9,
+      "question": "Which lake in India is the largest saline water lake?",
+      "options": [
+        "Sambhar Lake",
+        "Chilika Lake",
+        "Pulicat Lake",
+        "Vembanad Lake"
+      ],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 10,
+      "question": "Which Indian river is known as the 'Sorrow of Bihar'?",
+      "options": ["Gandak", "Kosi", "Son", "Ghaghra"],
+      "correctAnswer": 1,
+      "points": 10
+    },
+    {
+      "id": 11,
+      "question": "Which of the following mountain ranges is the oldest in India?",
+      "options": ["Himalayas", "Vindhyas", "Aravalli", "Satpura"],
+      "correctAnswer": 2,
+      "points": 20
+    },
+    {
+      "id": 12,
+      "question": "Which is the southernmost point of the Indian mainland?",
+      "options": ["Kanyakumari", "Indira Point", "Cape Comorin", "Rameswaram"],
+      "correctAnswer": 0,
+      "points": 10
+    },
+    {
+      "id": 13,
+      "question": "The Tropic of Cancer passes through how many Indian states?",
+      "options": ["6", "7", "8", "9"],
+      "correctAnswer": 2,
+      "points": 15
+    },
+    {
+      "id": 14,
+      "question": "Which Indian island group is of coral origin?",
+      "options": [
+        "Andaman Islands",
+        "Nicobar Islands",
+        "Lakshadweep Islands",
+        "Rameswaram Islands"
+      ],
+      "correctAnswer": 2,
+      "points": 15
+    },
+    {
+      "id": 15,
+      "question": "Which river basin is the most water-abundant in India?",
+      "options": ["Ganga", "Brahmaputra", "Godavari", "Mahanadi"],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "id": 16,
+      "question": "In which Indian state is the Lonar Lake, formed by a meteor impact, located?",
+      "options": ["Rajasthan", "Maharashtra", "Gujarat", "Madhya Pradesh"],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "id": 17,
+      "question": "Which Indian desert region lies between the Aravalli range and the Rann of Kutch?",
+      "options": [
+        "Marusthali",
+        "Great Indian Desert",
+        "Rajasthan Desert",
+        "Bikaner Plains"
+      ],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 18,
+      "question": "Which dam is built on the Krishna River and forms the Srisailam Reservoir?",
+      "options": [
+        "Nagarjuna Sagar Dam",
+        "Srisailam Dam",
+        "Almatti Dam",
+        "Jurala Dam"
+      ],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 19,
+      "question": "Which coastal region of India is known as the 'Konkan Coast'?",
+      "options": [
+        "Kerala to Kanyakumari",
+        "Goa to Mumbai",
+        "Mangalore to Goa",
+        "Mumbai to Gujarat"
+      ],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 20,
+      "question": "Which glacier is the source of the Ganga River?",
+      "options": [
+        "Siachen Glacier",
+        "Gangotri Glacier",
+        "Zemu Glacier",
+        "Pindari Glacier"
+      ],
+      "correctAnswer": 1,
+      "points": 15
+    }
+  ],
+  "history": [
+    {
+      "id": 1,
+      "question": "Who was the Governor-General of India during the implementation of the Permanent Settlement of Bengal?",
+      "options": [
+        "Lord Wellesley",
+        "Lord Cornwallis",
+        "Lord Hastings",
+        "Lord Dalhousie"
+      ],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 2,
+      "question": "Which Act transferred the power from the East India Company to the British Crown?",
+      "options": [
+        "Charter Act of 1833",
+        "Charter Act of 1853",
+        "Government of India Act 1858",
+        "Indian Councils Act 1861"
+      ],
+      "correctAnswer": 2,
+      "points": 15
+    },
+    {
+      "id": 3,
+      "question": "Who was the Viceroy of India at the time of the Partition of Bengal in 1905?",
+      "options": [
+        "Lord Lytton",
+        "Lord Curzon",
+        "Lord Hardinge",
+        "Lord Chelmsford"
+      ],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 4,
+      "question": "Which revolutionary founded the ‘Abhinav Bharat Society’ in 1904?",
+      "options": [
+        "Bal Gangadhar Tilak",
+        "Vinayak Damodar Savarkar",
+        "Aurobindo Ghosh",
+        "Lala Lajpat Rai"
+      ],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "id": 5,
+      "question": "The Indigo Revolt of 1859–60 took place in which region of India?",
+      "options": ["Bihar", "Bengal", "Assam", "Orissa"],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 6,
+      "question": "Who among the following was the first Indian to be elected to the British Parliament?",
+      "options": [
+        "Dadabhai Naoroji",
+        "M.G. Ranade",
+        "W.C. Bonnerjee",
+        "Surendranath Banerjee"
+      ],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 7,
+      "question": "The title of ‘Kaiser-i-Hind’ was given to Queen Victoria by which Act?",
+      "options": [
+        "Government of India Act 1858",
+        "Royal Titles Act 1876",
+        "Queen’s Proclamation 1858",
+        "Indian Councils Act 1892"
+      ],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "id": 8,
+      "question": "The Ghadar Party was founded in which city?",
+      "options": ["London", "San Francisco", "Berlin", "Lahore"],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 9,
+      "question": "Who presided over the Lahore Session of the Indian National Congress in 1929, where the ‘Purna Swaraj’ resolution was adopted?",
+      "options": [
+        "Mahatma Gandhi",
+        "Subhas Chandra Bose",
+        "Jawaharlal Nehru",
+        "Motilal Nehru"
+      ],
+      "correctAnswer": 2,
+      "points": 15
+    },
+    {
+      "id": 10,
+      "question": "Which of the following commissions recommended the separation of the judiciary from the executive?",
+      "options": [
+        "Simon Commission",
+        "Hunter Commission",
+        "Raleigh Commission",
+        "Montford Reforms"
+      ],
+      "correctAnswer": 0,
+      "points": 20
+    },
+    {
+      "id": 11,
+      "question": "Who was the Governor-General of India during the First War of Independence in 1857?",
+      "options": [
+        "Lord Dalhousie",
+        "Lord Canning",
+        "Lord Elgin",
+        "Lord Lytton"
+      ],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 12,
+      "question": "In which year was the Indian National Congress founded?",
+      "options": ["1885", "1889", "1890", "1895"],
+      "correctAnswer": 0,
+      "points": 10
+    },
+    {
+      "id": 13,
+      "question": "Who among the following was known as the ‘Grand Old Man of India’?",
+      "options": [
+        "Gopal Krishna Gokhale",
+        "Dadabhai Naoroji",
+        "Lala Lajpat Rai",
+        "Bipin Chandra Pal"
+      ],
+      "correctAnswer": 1,
+      "points": 10
+    },
+    {
+      "id": 14,
+      "question": "Which Indian leader was associated with the founding of the ‘Servants of India Society’?",
+      "options": [
+        "Gopal Krishna Gokhale",
+        "Bal Gangadhar Tilak",
+        "Lala Lajpat Rai",
+        "M.G. Ranade"
+      ],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 15,
+      "question": "The Simon Commission was boycotted in India because—",
+      "options": [
+        "It had no Indian member",
+        "It recommended partition",
+        "It supported separate electorates",
+        "It opposed Home Rule"
+      ],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 16,
+      "question": "Who was the founder of the Indian Home Rule League in 1916?",
+      "options": [
+        "Bal Gangadhar Tilak",
+        "Annie Besant",
+        "Both A and B",
+        "Dadabhai Naoroji"
+      ],
+      "correctAnswer": 2,
+      "points": 15
+    },
+    {
+      "id": 17,
+      "question": "Which British Viceroy is associated with the partition of Bengal and the establishment of the Muslim League?",
+      "options": [
+        "Lord Curzon",
+        "Lord Minto",
+        "Lord Hardinge",
+        "Lord Chelmsford"
+      ],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "id": 18,
+      "question": "The Rowlatt Act of 1919 was passed to—",
+      "options": [
+        "Introduce separate electorates",
+        "Extend wartime repressive measures",
+        "Ban political parties",
+        "Censor the press"
+      ],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 19,
+      "question": "Who drafted the ‘Quit India’ resolution of 1942?",
+      "options": [
+        "C. Rajagopalachari",
+        "Jawaharlal Nehru",
+        "Acharya Kripalani",
+        "Mahatma Gandhi"
+      ],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 20,
+      "question": "Who among the following was the first Indian Governor-General of independent India?",
+      "options": [
+        "C. Rajagopalachari",
+        "Lord Mountbatten",
+        "Dr. Rajendra Prasad",
+        "Jawaharlal Nehru"
+      ],
+      "correctAnswer": 0,
+      "points": 10
+    }
+  ],
+  "mythology": [
+    {
+      "id": 1,
+      "question": "Who was the author of the Mahabharata?",
+      "options": ["Valmiki", "Veda Vyasa", "Kalidasa", "Tulsidas"],
+      "correctAnswer": 1,
+      "points": 10
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is considered the mother of the Pandavas and Kauravas?",
+      "options": ["Kunti", "Gandhari", "Satyavati", "Madri"],
+      "correctAnswer": 2,
+      "points": 15
+    },
+    {
+      "id": 3,
+      "question": "In the Ramayana, who was the father of Ravana?",
+      "options": ["Vishrava", "Pulastya", "Kashyapa", "Sumali"],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 4,
+      "question": "Which Pandava was married to Draupadi first?",
+      "options": ["Yudhishthira", "Bhima", "Arjuna", "Nakula"],
+      "correctAnswer": 2,
+      "points": 10
+    },
+    {
+      "id": 5,
+      "question": "Who gave the Sudarshana Chakra to Lord Vishnu?",
+      "options": ["Lord Brahma", "Lord Shiva", "Lord Indra", "Vishwakarma"],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 6,
+      "question": "In which Yuga did Lord Parashurama appear?",
+      "options": ["Satya Yuga", "Treta Yuga", "Dvapara Yuga", "Kali Yuga"],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 7,
+      "question": "Who was the mother of Ganesha?",
+      "options": ["Parvati", "Durga", "Ganga", "Sati"],
+      "correctAnswer": 0,
+      "points": 5
+    },
+    {
+      "id": 8,
+      "question": "In the Mahabharata, who killed Dronacharya?",
+      "options": ["Arjuna", "Dhrishtadyumna", "Bhima", "Abhimanyu"],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 9,
+      "question": "What was the real name of the sage Valmiki before he became a saint?",
+      "options": ["Ratnakar", "Vishrava", "Kaushika", "Vasistha"],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 10,
+      "question": "Who cursed King Dasharatha that he would die of grief caused by his son’s exile?",
+      "options": [
+        "Kaikeyi",
+        "Shravana Kumar’s father",
+        "Sage Vasistha",
+        "Vishwamitra"
+      ],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "id": 11,
+      "question": "Who was the son of Arjuna and Subhadra?",
+      "options": ["Abhimanyu", "Iravan", "Parikshit", "Prativindhya"],
+      "correctAnswer": 0,
+      "points": 10
+    },
+    {
+      "id": 12,
+      "question": "Who was the charioteer of Karna during the Kurukshetra war?",
+      "options": ["Krishna", "Shalya", "Drona", "Ashwatthama"],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 13,
+      "question": "In which scripture is the Bhagavad Gita found?",
+      "options": ["Ramayana", "Rigveda", "Mahabharata", "Upanishads"],
       "correctAnswer": 2,
       "points": 10
     },
     {
       "id": 14,
-      "question": "Which film marked the debut of Amitabh Bachchan?",
-      "options": ["Saat Hindustani", "Anand", "Zanjeer", "Deewar"],
+      "question": "Who was the wife of sage Jamadagni and mother of Parashurama?",
+      "options": ["Renuka", "Ahalya", "Arundhati", "Anusuya"],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 15,
+      "question": "Which serpent king provided his body as a bed for Lord Vishnu?",
+      "options": ["Takshaka", "Vasuki", "Kaliya", "Sheshanaga"],
+      "correctAnswer": 3,
+      "points": 10
+    },
+    {
+      "id": 16,
+      "question": "Who was the author of ‘Bhagavata Purana’?",
+      "options": ["Vyasa", "Valmiki", "Vishwamitra", "Agastya"],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 17,
+      "question": "Which demon was killed by Lord Krishna at birth?",
+      "options": ["Putana", "Kesi", "Kansa", "Bakāsura"],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 18,
+      "question": "Who built the bridge to Lanka in the Ramayana?",
+      "options": ["Hanuman", "Sugriva", "Nala", "Angada"],
+      "correctAnswer": 2,
+      "points": 15
+    },
+    {
+      "id": 19,
+      "question": "What was the name of Bhishma before he took his vow of celibacy?",
+      "options": ["Devavrata", "Shantanu", "Vichitravirya", "Parashara"],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 20,
+      "question": "Who was the last incarnation of Lord Vishnu according to Hindu scriptures?",
+      "options": ["Buddha", "Kalki", "Krishna", "Parashurama"],
+      "correctAnswer": 1,
+      "points": 20
+    }
+  ],
+  "politics": [
+    {
+      "id": 1,
+      "question": "Who is regarded as the Chief Architect of the Indian Constitution?",
+      "options": [
+        "Mahatma Gandhi",
+        "B.R. Ambedkar",
+        "Jawaharlal Nehru",
+        "Rajendra Prasad"
+      ],
+      "correctAnswer": 1,
+      "points": 10
+    },
+    {
+      "id": 2,
+      "question": "The idea of Fundamental Duties was borrowed from which country's Constitution?",
+      "options": ["USA", "Ireland", "Russia (USSR)", "Japan"],
+      "correctAnswer": 2,
+      "points": 15
+    },
+    {
+      "id": 3,
+      "question": "Which part of the Indian Constitution deals with the Directive Principles of State Policy?",
+      "options": ["Part II", "Part III", "Part IV", "Part IVA"],
+      "correctAnswer": 2,
+      "points": 10
+    },
+    {
+      "id": 4,
+      "question": "Who has the final authority to interpret the Constitution of India?",
+      "options": ["President", "Parliament", "Supreme Court", "Prime Minister"],
+      "correctAnswer": 2,
+      "points": 15
+    },
+    {
+      "id": 5,
+      "question": "In which year was the Constitution of India adopted?",
+      "options": ["1947", "1948", "1949", "1950"],
+      "correctAnswer": 2,
+      "points": 10
+    },
+    {
+      "id": 6,
+      "question": "The concept of Judicial Review in India has been borrowed from which country?",
+      "options": ["USA", "UK", "Canada", "Australia"],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 7,
+      "question": "Which Article of the Indian Constitution abolishes 'Untouchability'?",
+      "options": ["Article 14", "Article 15", "Article 17", "Article 18"],
+      "correctAnswer": 2,
+      "points": 10
+    },
+    {
+      "id": 8,
+      "question": "The emergency provisions in the Indian Constitution were borrowed from which country's Constitution?",
+      "options": ["Germany", "USA", "UK", "France"],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 9,
+      "question": "The President of India is elected by an electoral college consisting of—",
+      "options": [
+        "Only Members of Parliament",
+        "Only Members of State Legislatures",
+        "Both MPs and MLAs",
+        "The general public"
+      ],
+      "correctAnswer": 2,
+      "points": 10
+    },
+    {
+      "id": 10,
+      "question": "Which amendment is known as the 'Mini Constitution' of India?",
+      "options": [
+        "42nd Amendment",
+        "44th Amendment",
+        "73rd Amendment",
+        "86th Amendment"
+      ],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 11,
+      "question": "Which Article of the Constitution deals with the Impeachment of the President?",
+      "options": ["Article 56", "Article 61", "Article 74", "Article 76"],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 12,
+      "question": "Who was the first Deputy Prime Minister of India?",
+      "options": [
+        "C. Rajagopalachari",
+        "Sardar Vallabhbhai Patel",
+        "Morarji Desai",
+        "Jagjivan Ram"
+      ],
+      "correctAnswer": 1,
+      "points": 10
+    },
+    {
+      "id": 13,
+      "question": "Which schedule of the Constitution contains the list of official languages?",
+      "options": [
+        "6th Schedule",
+        "7th Schedule",
+        "8th Schedule",
+        "9th Schedule"
+      ],
+      "correctAnswer": 2,
+      "points": 15
+    },
+    {
+      "id": 14,
+      "question": "The President can proclaim a National Emergency under which Article?",
+      "options": ["Article 352", "Article 356", "Article 360", "Article 368"],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 15,
+      "question": "Who presides over the joint session of Parliament in India?",
+      "options": [
+        "President",
+        "Prime Minister",
+        "Speaker of Lok Sabha",
+        "Chairman of Rajya Sabha"
+      ],
+      "correctAnswer": 2,
+      "points": 10
+    },
+    {
+      "id": 16,
+      "question": "Which Article provides for the appointment of the Comptroller and Auditor General (CAG) of India?",
+      "options": ["Article 147", "Article 148", "Article 149", "Article 150"],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 17,
+      "question": "Who appoints the Chief Election Commissioner of India?",
+      "options": [
+        "Prime Minister",
+        "President",
+        "Cabinet Committee",
+        "Supreme Court"
+      ],
+      "correctAnswer": 1,
+      "points": 10
+    },
+    {
+      "id": 18,
+      "question": "Which Constitutional Amendment lowered the voting age from 21 years to 18 years?",
+      "options": [
+        "42nd Amendment",
+        "44th Amendment",
+        "61st Amendment",
+        "73rd Amendment"
+      ],
+      "correctAnswer": 2,
+      "points": 10
+    },
+    {
+      "id": 19,
+      "question": "Under which Article can the President dissolve the Lok Sabha?",
+      "options": ["Article 83", "Article 85", "Article 100", "Article 110"],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 20,
+      "question": "Which Article of the Indian Constitution deals with the amendment process?",
+      "options": ["Article 360", "Article 368", "Article 370", "Article 372"],
+      "correctAnswer": 1,
+      "points": 15
+    }
+  ],
+  "current_affairs": [
+    {
+      "id": 1,
+      "question": "Which Indian union territory became the first to implement a Uniform Civil Code in 2025?",
+      "options": [
+        "Lakshadweep",
+        "Puducherry",
+        "Dadra & Nagar Haveli and Daman & Diu",
+        "Andaman & Nicobar Islands"
+      ],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 2,
+      "question": "Which country is hosting the G20 Summit 2025?",
+      "options": ["India", "South Africa", "Brazil", "Indonesia"],
+      "correctAnswer": 1,
+      "points": 10
+    },
+    {
+      "id": 3,
+      "question": "India’s first full-stack quantum computer, called QpiAI-Indus, was reported as launched with how many superconducting qubits?",
+      "options": ["10", "20", "25", "30"],
+      "correctAnswer": 2,
+      "points": 15
+    },
+    {
+      "id": 4,
+      "question": "Which Indian state’s panchayat was declared the country’s first 100% digital-literate panchayat in 2025?",
+      "options": ["Kerala", "Tamil Nadu", "Karnataka", "Goa"],
+      "correctAnswer": 0,
+      "points": 10
+    },
+    {
+      "id": 5,
+      "question": "Which Indian train was announced as the country’s first hydrogen-powered train?",
+      "options": [
+        "Vande Bharat Express",
+        "Shatabdi Express",
+        "Jan Shatabdi Express",
+        "Duronto Express"
+      ],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 6,
+      "question": "Which Indian budget year saw the extension of the Pradhan Mantri Fasal Bima Yojana and a renewed focus on weather-based crop insurance schemes?",
+      "options": ["2024-25", "2025-26", "2023-24", "2022-23"],
+      "correctAnswer": 1,
+      "points": 10
+    },
+    {
+      "id": 7,
+      "question": "Which Indian economy growth target (for the fiscal year) was the government reportedly aiming to achieve in late 2024/early 2025?",
+      "options": ["5.0 %–5.5 %", "6.0 %–6.5 %", "6.5 %–7.0 %", "7.0 %–7.5 %"],
+      "correctAnswer": 2,
+      "points": 15
+    },
+    {
+      "id": 8,
+      "question": "In 2025, India’s foreign direct investment (FDI) limit in the insurance sector was proposed to be raised to what percentage?",
+      "options": ["50 %", "74 %", "100 %", "125 %"],
+      "correctAnswer": 2,
+      "points": 15
+    },
+    {
+      "id": 9,
+      "question": "Which Indian mission’s discovery of water-ice on the Moon was reported in recent years?",
+      "options": [
+        "Chandrayaan-1",
+        "Chandrayaan-2",
+        "Chandrayaan-3",
+        "Aditya-L1"
+      ],
+      "correctAnswer": 2,
+      "points": 15
+    },
+    {
+      "id": 10,
+      "question": "Which global sporting event did India propose to host for 2030, as reported in current affairs?",
+      "options": [
+        "Olympics",
+        "Asian Games",
+        "Commonwealth Games",
+        "World Cup (cricket)"
+      ],
+      "correctAnswer": 2,
+      "points": 10
+    },
+    {
+      "id": 11,
+      "question": "Which Indian state/UT was the first to launch a portal named PM‑SURAJ Portal for business loans to SC/ST, OBC and sanitation worker communities?",
+      "options": ["Uttar Pradesh", "Bihar", "Rajasthan", "Madhya Pradesh"],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 12,
+      "question": "Which country is the destination of the largest Indian diaspora population in the Caribbean visited by the Indian Prime Minister in 2025?",
+      "options": ["Trinidad & Tobago", "Guyana", "Suriname", "Jamaica"],
+      "correctAnswer": 0,
+      "points": 10
+    },
+    {
+      "id": 13,
+      "question": "Which state in India constituted a special task force to clear encroachments in its forests and the Western Ghats area in 2025?",
+      "options": ["Kerala", "Karnataka", "Goa", "Maharashtra"],
+      "correctAnswer": 2,
+      "points": 15
+    },
+    {
+      "id": 14,
+      "question": "Which Indian government ministry oversees the Jute Corporation of India, as per recent reports?",
+      "options": [
+        "Ministry of Textiles",
+        "Ministry of Commerce & Industry",
+        "Ministry of Agriculture",
+        "Ministry of Micro, Small & Medium Enterprises"
+      ],
       "correctAnswer": 0,
       "points": 10
     },
     {
       "id": 15,
-      "question": "Which Bollywood movie became the highest-grossing Indian film worldwide (as of 2025)?",
-      "options": ["Pathaan", "Jawan", "Dangal", "Baahubali 2: The Conclusion"],
+      "question": "Which Indian statutory body celebrated its 75th anniversary in 2025 with a national quiz contest called ‘Anvesha 2.0’?",
+      "options": [
+        "Election Commission of India",
+        "National Sample Survey Office",
+        "Reserve Bank of India",
+        "Central Bureau of Investigation"
+      ],
       "correctAnswer": 1,
+      "points": 10
+    },
+    {
+      "id": 16,
+      "question": "Which Indian rail route recently saw the trial or introduction of a new technology train in 2025?",
+      "options": [
+        "Mumbai-Delhi",
+        "Chennai-Bangalore",
+        "Howrah-Delhi",
+        "Some new hydrogen train route"
+      ],
+      "correctAnswer": 3,
+      "points": 15
+    },
+    {
+      "id": 17,
+      "question": "Which Indian state’s Panchayat was declared the first 100 % digital-literate Panchayat?",
+      "options": ["Kerala", "Tamil Nadu", "Karnataka", "Andhra Pradesh"],
+      "correctAnswer": 0,
+      "points": 10
+    },
+    {
+      "id": 18,
+      "question": "Which tennis player won the 2025 Australian Open men’s singles title, as referenced in Indian current affairs lists?",
+      "options": [
+        "Rafael Nadal",
+        "Novak Djokovic",
+        "Jannik Sinner",
+        "Carlos Alcaraz"
+      ],
+      "correctAnswer": 2,
+      "points": 10
+    },
+    {
+      "id": 19,
+      "question": "Which ministry launched the $ ‘Aabhar’ online store on the GeM portal in November 2025?",
+      "options": [
+        "Ministry of Commerce & Industry",
+        "MyGov portal",
+        "Ministry of Textiles",
+        "Ministry of Micro, Small & Medium Enterprises"
+      ],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 20,
+      "question": "Which Indian mission/initiative is the country’s first full stack quantum computer project known as ‘QpiAI-Indus’ linked to?",
+      "options": ["ISRO", "DRDO", "MeitY-DST joint initiative", "NITI Aayog"],
+      "correctAnswer": 2,
+      "points": 15
+    }
+  ],
+  "science": [
+    {
+      "id": 1,
+      "question": "Which is the smallest particle of an element that retains its chemical properties?",
+      "options": ["Electron", "Atom", "Molecule", "Proton"],
+      "correctAnswer": 1,
+      "points": 10
+    },
+    {
+      "id": 2,
+      "question": "Who developed the general theory of relativity?",
+      "options": [
+        "Isaac Newton",
+        "Niels Bohr",
+        "Albert Einstein",
+        "Max Planck"
+      ],
+      "correctAnswer": 2,
+      "points": 10
+    },
+    {
+      "id": 3,
+      "question": "Which Indian satellite mission successfully demonstrated solar observation capability?",
+      "options": ["Chandrayaan-3", "Mangalyaan", "Aditya-L1", "RISAT-2B"],
+      "correctAnswer": 2,
+      "points": 15
+    },
+    {
+      "id": 4,
+      "question": "What is the main function of ribosomes in a cell?",
+      "options": [
+        "DNA replication",
+        "Protein synthesis",
+        "Energy production",
+        "Waste removal"
+      ],
+      "correctAnswer": 1,
+      "points": 10
+    },
+    {
+      "id": 5,
+      "question": "Which type of electromagnetic radiation has the shortest wavelength?",
+      "options": ["Microwaves", "Gamma rays", "Infrared", "Ultraviolet"],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 6,
+      "question": "Which Indian supercomputer was developed for weather forecasting?",
+      "options": ["PARAM", "Pratyush", "Annapurna", "EKA"],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 7,
+      "question": "Which planet has the largest number of moons discovered so far?",
+      "options": ["Saturn", "Jupiter", "Neptune", "Uranus"],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 8,
+      "question": "What is the full form of DNA?",
+      "options": [
+        "Deoxyribonucleic Acid",
+        "Dinucleic Acid",
+        "Deoxy Nitric Acid",
+        "Diorganic Nucleic Acid"
+      ],
+      "correctAnswer": 0,
+      "points": 10
+    },
+    {
+      "id": 9,
+      "question": "What is the SI unit of electric current?",
+      "options": ["Volt", "Coulomb", "Ohm", "Ampere"],
+      "correctAnswer": 3,
+      "points": 10
+    },
+    {
+      "id": 10,
+      "question": "Who was the first Indian to travel to space?",
+      "options": [
+        "Rakesh Sharma",
+        "Kalpana Chawla",
+        "Sunita Williams",
+        "Ritu Karidhal"
+      ],
+      "correctAnswer": 0,
+      "points": 10
+    },
+    {
+      "id": 11,
+      "question": "Which element has the highest electrical conductivity?",
+      "options": ["Gold", "Silver", "Copper", "Aluminium"],
+      "correctAnswer": 1,
+      "points": 10
+    },
+    {
+      "id": 12,
+      "question": "In computer science, what does ‘AI’ stand for?",
+      "options": [
+        "Automated Input",
+        "Artificial Intelligence",
+        "Algorithmic Interface",
+        "Automatic Integration"
+      ],
+      "correctAnswer": 1,
+      "points": 5
+    },
+    {
+      "id": 13,
+      "question": "Which Indian city hosts the headquarters of ISRO?",
+      "options": ["Hyderabad", "Bengaluru", "Chennai", "Thiruvananthapuram"],
+      "correctAnswer": 1,
+      "points": 10
+    },
+    {
+      "id": 14,
+      "question": "What is the phenomenon of splitting of light into its constituent colors called?",
+      "options": ["Diffraction", "Dispersion", "Reflection", "Interference"],
+      "correctAnswer": 1,
+      "points": 10
+    },
+    {
+      "id": 15,
+      "question": "Which organ in the human body produces insulin?",
+      "options": ["Liver", "Pancreas", "Kidney", "Gallbladder"],
+      "correctAnswer": 1,
+      "points": 10
+    },
+    {
+      "id": 16,
+      "question": "What is the purpose of CRISPR technology?",
+      "options": [
+        "Cloning animals",
+        "Genome editing",
+        "Protein synthesis",
+        "Artificial intelligence research"
+      ],
+      "correctAnswer": 1,
+      "points": 15
+    },
+    {
+      "id": 17,
+      "question": "Which Indian organization developed the Agni-V missile?",
+      "options": ["DRDO", "ISRO", "HAL", "BHEL"],
+      "correctAnswer": 0,
+      "points": 15
+    },
+    {
+      "id": 18,
+      "question": "Who discovered penicillin, the world’s first antibiotic?",
+      "options": [
+        "Louis Pasteur",
+        "Robert Koch",
+        "Alexander Fleming",
+        "Edward Jenner"
+      ],
+      "correctAnswer": 2,
+      "points": 10
+    },
+    {
+      "id": 19,
+      "question": "Which of the following materials is used to make solar cells?",
+      "options": ["Silicon", "Graphite", "Copper", "Zinc"],
+      "correctAnswer": 0,
+      "points": 10
+    },
+    {
+      "id": 20,
+      "question": "Which Indian mission aims to send humans to space under the ‘Gaganyaan’ project?",
+      "options": ["ISRO", "DRDO", "BARC", "HAL"],
+      "correctAnswer": 0,
       "points": 15
     }
   ]

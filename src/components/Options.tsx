@@ -22,11 +22,13 @@ const Options = ({ options, correctAnswer }: PropType) => {
         {options.map((option, index) => {
           return (
             <button
-              className={`w-sm  ${
-                answer === index ? "border-amber-500!" : ""
-              } disabled:bg-gray-800! ${
-                isAnswered && correctAnswer === index ? "border-green-500!" : ""
-              } `}
+              className={`w-sm    ${
+                isAnswered && correctAnswer === index ? "bg-primary!" : ""
+              } ${
+                answer !== correctAnswer && answer === index
+                  ? "bg-red-500!"
+                  : ""
+              }`}
               onClick={() => handleClick(index)}
               disabled={isAnswered}
               key={option}

@@ -2,18 +2,24 @@ import type { ACTION_TYPE, STATE_TYPE, STATUS_TYPE } from "./types";
 
 export const initialState: STATE_TYPE = {
   questions: [],
-  status: "loading",
+  status: "welcome",
   index: 0,
   answer: null,
   points: 0,
   highestPoints: 0,
   secondsRemaining: null,
+  category: null,
 };
 
 const SEC_PER_QUESTION = 30;
 
 export function reducer(state: STATE_TYPE, action: ACTION_TYPE) {
   switch (action.type) {
+    case "SET_CATEGORY":
+      return { ...state, category: action.payload };
+
+    case "RESET_CATEGORY":
+      return { ...state, category: null, status: "welcome" as STATUS_TYPE };
     case "SET_QUESTIONS":
       return {
         ...state,
@@ -55,11 +61,12 @@ export function reducer(state: STATE_TYPE, action: ACTION_TYPE) {
 
     case "RESTART":
       return {
-        ...state,
+        ...initialState,
         answer: null,
-        status: "ready" as STATUS_TYPE,
+        status: "welcome" as STATUS_TYPE,
         points: 0,
         index: 0,
+        highestPoints: state.highestPoints,
       };
 
     case "TIMER":
