@@ -46,7 +46,7 @@ export function reducer(state: STATE_TYPE, action: ACTION_TYPE) {
     case "FINISH":
       return {
         ...state,
-        status: "finished",
+        status: "finished" as STATUS_TYPE,
         highestPoints:
           state.points > state.highestPoints
             ? state.points
@@ -54,7 +54,13 @@ export function reducer(state: STATE_TYPE, action: ACTION_TYPE) {
       };
 
     case "RESTART":
-      return { ...state, answer: null, status: "ready", points: 0, index: 0 };
+      return {
+        ...state,
+        answer: null,
+        status: "ready" as STATUS_TYPE,
+        points: 0,
+        index: 0,
+      };
 
     case "TIMER":
       return {

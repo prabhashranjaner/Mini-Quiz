@@ -16,7 +16,7 @@ const Quiz = () => {
     }
   }
   return (
-    <div>
+    <div className="max-w-[95vw] p-4 ">
       <div className="mb-12">
         <ProgressBar />
       </div>

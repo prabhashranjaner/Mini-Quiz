@@ -31,7 +31,7 @@ function App() {
     fetchQuestions();
   }, [dispatch]);
   return (
-    <div>
+    <div className="max-w-[90vw] mx-auto">
       <Header />
       <div className="mt-12">
         {status === "loading" && <Loading />}
