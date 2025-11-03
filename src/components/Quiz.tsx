@@ -11,7 +11,7 @@ const Quiz = () => {
   const currentQuestion = questions[index];
 
   function handleNext() {
-    if (index < 19) {
+    if (index < questions.length - 1) {
       dispatch({ type: "NEXT" });
     }
   }
@@ -34,7 +34,7 @@ const Quiz = () => {
             Finish 🙅🏻
           </button>
         )}
-        {answer !== null && index < 19 && (
+        {answer !== null && index < questions.length - 1 && (
           <button className="" onClick={handleNext}>
             Next ▶
           </button>

@@ -12,14 +12,14 @@ import Category from "./components/Category";
 function App() {
   const { dispatch, state } = useContext(StateContext)!;
 
-  const { status, category } = state;
+  const { status, category, questionLength } = state;
   //mini-quiz-backend-1.onrender.com/questions
   // ! JSON_SERVER
   useEffect(() => {
     async function fetchQuestions() {
       try {
         const res = await fetch(
-          `https://mini-quiz-backend-1.onrender.com/${category}`
+          `https://quizikistan-api-1.onrender.com/api/v1/${category}?size=${questionLength}`
         );
         const data = await res.json();
         dispatch({ type: "SET_QUESTIONS", payload: data });
@@ -29,7 +29,7 @@ function App() {
       }
     }
     if (category) fetchQuestions();
-  }, [dispatch, category]);
+  }, [dispatch, category, questionLength]);
   return (
     <div className="max-w-[90vw] mx-auto md:w-[70vw] lg:w-[50vw]">
       <Header />

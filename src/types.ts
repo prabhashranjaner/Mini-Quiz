@@ -9,6 +9,7 @@ export type STATE_TYPE = {
   highestPoints: number;
   secondsRemaining: null | number;
   category: CATEGORY_TYPE;
+  questionLength: number;
 };
 
 export type STATUS_TYPE =
@@ -28,6 +29,7 @@ export type CATEGORY_TYPE =
   | "politics"
   | "current_affairs"
   | "science"
+  | "kids"
   | null;
 
 export type OPTION_TYPE = {
@@ -44,7 +46,7 @@ export type QUES_TYPE = {
 };
 
 export type ACTION_TYPE =
-  | { type: "SET_CATEGORY"; payload: CATEGORY_TYPE }
+  | { type: "SET_CATEGORY"; payload: { category: CATEGORY_TYPE; size: number } }
   | { type: "RESET_CATEGORY" }
   | { type: "SET_QUESTIONS"; payload: QUES_TYPE[] }
   | { type: "ERROR" }

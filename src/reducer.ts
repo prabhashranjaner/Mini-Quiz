@@ -9,6 +9,7 @@ export const initialState: STATE_TYPE = {
   highestPoints: 0,
   secondsRemaining: null,
   category: null,
+  questionLength: 10,
 };
 
 const SEC_PER_QUESTION = 30;
@@ -16,7 +17,11 @@ const SEC_PER_QUESTION = 30;
 export function reducer(state: STATE_TYPE, action: ACTION_TYPE) {
   switch (action.type) {
     case "SET_CATEGORY":
-      return { ...state, category: action.payload };
+      return {
+        ...state,
+        category: action.payload.category,
+        questionLength: action.payload.size,
+      };
 
     case "RESET_CATEGORY":
       return { ...state, category: null, status: "welcome" as STATUS_TYPE };

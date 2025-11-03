@@ -71,3 +71,10 @@ button:hover {
   --font-logo: "Rubik Distressed", system-ui;
   --color-primary: #646cff;
 }
+
+/* Chrome, Safari */
+input[type="range"]::-webkit-slider-runnable-track {
+  background: #646cff; /* Example background color */
+  height: 8px; /* Example height */
+  border-radius: 4px;
+}

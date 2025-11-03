@@ -12,7 +12,6 @@ const Options = ({ options, correctAnswer }: PropType) => {
   const isAnswered = answer !== null;
 
   function handleClick(index: number) {
-    console.log("clicked");
     dispatch({ type: "ANSWER", payload: index });
   }
 
