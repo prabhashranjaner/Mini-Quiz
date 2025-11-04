@@ -1,8 +1,8 @@
-import { useContext, useEffect } from "react";
-import { StateContext } from "../StateProvider";
+import { useEffect } from "react";
+import { useContextData } from "../StateProvider";
 
 const Timer = () => {
-  const { state, dispatch } = useContext(StateContext)!;
+  const { state, dispatch } = useContextData()!;
   const { secondsRemaining } = state;
 
   const mints = Math.floor(secondsRemaining! / 60);

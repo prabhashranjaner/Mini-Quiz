@@ -1,11 +1,10 @@
-import { useContext } from "react";
-import { StateContext } from "../StateProvider";
+import { useContextData } from "../StateProvider";
 import Options from "./Options";
 import ProgressBar from "./ProgressBar";
 import Timer from "./Timer";
 
 const Quiz = () => {
-  const { state, dispatch } = useContext(StateContext)!;
+  const { state, dispatch } = useContextData()!;
 
   const { questions, index, answer } = state;
   const currentQuestion = questions[index];

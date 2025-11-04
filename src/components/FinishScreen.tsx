@@ -1,9 +1,8 @@
-import { useContext } from "react";
-import { StateContext } from "../StateProvider";
+import { useContextData } from "../StateProvider";
 import type { QUES_TYPE } from "../types";
 
 const FinishScreen = () => {
-  const { state, dispatch } = useContext(StateContext)!;
+  const { state, dispatch } = useContextData()!;
 
   const { questions, points, highestPoints } = state;
 
@@ -15,14 +14,17 @@ const FinishScreen = () => {
   const percent = Math.ceil((points / maxPoints) * 100);
 
   return (
-    <div>
-      <p className="text-lg py-4 bg-primary rounded-full">
+    <div className="lg:mt-20">
+      <p className="text-lg py-4 bg-primary rounded-full md:max-w-xl mx-auto">
         You scored <strong>{points}</strong> out of {maxPoints} ({percent}%)
       </p>
-      <p className="mt-3">(Hightest Score {highestPoints})</p>
+      <p className="mt-3">🏆 (Hightest Score {highestPoints}) 🏆</p>
 
-      <button className="mt-12" onClick={() => dispatch({ type: "RESTART" })}>
-        Restart{" "}
+      <button
+        className="mt-12 lg:text-2xl"
+        onClick={() => dispatch({ type: "RESTART" })}
+      >
+        <span>Restart 👍🏼</span>
       </button>
     </div>
   );

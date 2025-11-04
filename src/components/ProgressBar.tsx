@@ -1,9 +1,8 @@
-import { useContext } from "react";
-import { StateContext } from "../StateProvider";
+import { useContextData } from "../StateProvider";
 import type { QUES_TYPE } from "../types";
 
 const ProgressBar = () => {
-  const { state } = useContext(StateContext)!;
+  const { state } = useContextData()!;
 
   const { index, questions, points, answer } = state;
 

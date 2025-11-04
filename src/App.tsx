@@ -1,5 +1,5 @@
-import { useContext, useEffect } from "react";
-import { StateContext } from "./StateProvider";
+import { useEffect } from "react";
+import { useContextData } from "./StateProvider";
 import "./App.css";
 import Header from "./components/Header";
 import WelcomeScreen from "./components/WelcomeScreen";
@@ -10,11 +10,10 @@ import FinishScreen from "./components/FinishScreen";
 import Category from "./components/Category";
 
 function App() {
-  const { dispatch, state } = useContext(StateContext)!;
+  const { dispatch, state } = useContextData();
 
   const { status, category, questionLength } = state;
-  //mini-quiz-backend-1.onrender.com/questions
-  // ! JSON_SERVER
+
   useEffect(() => {
     async function fetchQuestions() {
       try {
@@ -30,8 +29,9 @@ function App() {
     }
     if (category) fetchQuestions();
   }, [dispatch, category, questionLength]);
+
   return (
-    <div className="max-w-[90vw] mx-auto md:w-[70vw] lg:w-[50vw]">
+    <div className="max-w-[90vw] mx-auto md:max-w-[70vw] lg:max-w-[60vw]">
       <Header />
       <div className="mt-8">
         {status === "welcome" && <Category />}

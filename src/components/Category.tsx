@@ -1,22 +1,13 @@
-import { useContext, useState } from "react";
-import type { CATEGORY_TYPE, OPTION_TYPE } from "../types";
-import { StateContext } from "../StateProvider";
+import { useState } from "react";
+import type { CATEGORY_TYPE } from "../types";
+import { useContextData } from "../StateProvider";
+import CategoryInput from "./CategoryInput";
 
-const options: OPTION_TYPE[] = [
-  { value: "bollywood", label: "Bollywood " },
-  { value: "cricket", label: "Cricket" },
-  { value: "current_affairs", label: "Current Affairs" },
-  { value: "geography", label: "Indian Geography" },
-  { value: "history", label: "Indian History" },
-  { value: "mythology", label: "Indian Mythology & Epics" },
-  { value: "politics", label: "Indian Politics" },
-  { value: "science", label: "Science & Technology" },
-  { value: "kids", label: "Kids Zone" },
-];
 const Category = () => {
   const [category, setCategory] = useState<CATEGORY_TYPE>("bollywood");
   const [rangeValue, setRangeValue] = useState(10);
-  const { dispatch } = useContext(StateContext)!;
+
+  const { dispatch } = useContextData()!;
 
   return (
     <>
@@ -25,19 +16,7 @@ const Category = () => {
           <p className="text-lg font-bold text-primary mb-1 ">
             Choose Category
           </p>
-          <select
-            value={category!}
-            onChange={(e) => setCategory(e.target.value as CATEGORY_TYPE)}
-            className="p-2 bg-primary rounded-full font-bold w-full md:w-70"
-          >
-            {options.map((option) => {
-              return (
-                <option key={option.value} value={option.value!}>
-                  {option.label}
-                </option>
-              );
-            })}
-          </select>
+          <CategoryInput category={category} setCategory={setCategory} />
         </div>
 
         <div className="">
@@ -54,7 +33,7 @@ const Category = () => {
           <input
             type="range"
             id="myRange"
-            min="0"
+            min="5"
             max="100"
             value={rangeValue}
             onChange={(e) => setRangeValue(Number(e.target.value))}
@@ -62,6 +41,7 @@ const Category = () => {
           />
         </div>
       </div>
+      {/* NEXT BUTTON */}
       <div className="mt-12  lg:mt-18 flex justify-center">
         <button
           className="flex items-center justify-center gap-3 "

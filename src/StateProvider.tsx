@@ -1,4 +1,4 @@
-import { createContext, useReducer, type ReactNode } from "react";
+import { createContext, useReducer, useContext, type ReactNode } from "react";
 import type { CONTEXT_TYPE } from "./types";
 import { initialState, reducer } from "./reducer";
 
@@ -13,5 +13,14 @@ const StateProvider = ({ children }: { children: ReactNode }) => {
     </StateContext.Provider>
   );
 };
+
+// eslint-disable-next-line
+export function useContextData() {
+  const context = useContext(StateContext);
+
+  if (context === undefined) throw new Error("Outsider of Provider");
+
+  return context;
+}
 
 export default StateProvider;

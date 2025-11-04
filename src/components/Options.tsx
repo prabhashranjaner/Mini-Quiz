@@ -1,12 +1,11 @@
-import { useContext } from "react";
-import { StateContext } from "../StateProvider";
+import { useContextData } from "../StateProvider";
 
 type PropType = {
   options: string[];
   correctAnswer: number;
 };
 const Options = ({ options, correctAnswer }: PropType) => {
-  const { state, dispatch } = useContext(StateContext)!;
+  const { state, dispatch } = useContextData()!;
   const { answer } = state;
 
   const isAnswered = answer !== null;
