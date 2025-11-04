@@ -30,6 +30,7 @@ export type CATEGORY_TYPE =
   | "current_affairs"
   | "science"
   | "kids"
+  | "famous"
   | null;
 
 export type OPTION_TYPE = {

@@ -4,12 +4,13 @@ const options: OPTION_TYPE[] = [
   { value: "bollywood", label: "Bollywood " },
   { value: "cricket", label: "Cricket" },
   { value: "current_affairs", label: "Current Affairs" },
+  { value: "famous", label: "Famous Personalities" },
   { value: "geography", label: "Indian Geography" },
   { value: "history", label: "Indian History" },
   { value: "mythology", label: "Indian Mythology & Epics" },
   { value: "politics", label: "Indian Politics" },
-  { value: "science", label: "Science & Technology" },
   { value: "kids", label: "Kids Zone" },
+  { value: "science", label: "Science & Technology" },
 ];
 
 type PROPS_TYPE = {
