@@ -1,5 +1,9 @@
 const Loading = () => {
-  return <div className="text-4xl md:text-7xl">⌛️Loading... </div>;
+  return (
+    <div className="text-2xl md:text-3xl mt-20 font-bold">
+      ⌛️⌛️ Loading... ⌛️⌛️ <p></p>
+    </div>
+  );
 };
 
 export default Loading;

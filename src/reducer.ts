@@ -21,6 +21,7 @@ export function reducer(state: STATE_TYPE, action: ACTION_TYPE) {
         ...state,
         category: action.payload.category,
         questionLength: action.payload.size,
+        status: "loading" as STATUS_TYPE,
       };
 
     case "RESET_CATEGORY":
